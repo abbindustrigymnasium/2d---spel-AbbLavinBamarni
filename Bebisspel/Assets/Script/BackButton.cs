@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class BackButton : MonoBehaviour
 {
 
-    
+    //changes scene
     public void LoadScene(string MainMenu) {
         SceneManager.LoadScene(MainMenu);
     }

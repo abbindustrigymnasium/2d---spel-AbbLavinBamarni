@@ -17,6 +17,7 @@ public class RestartButtonScript : MonoBehaviour
         
     }
     
+    //restarts a scene
     public void restartScene()
     {
        SceneManager.LoadScene("Bebisspel");
